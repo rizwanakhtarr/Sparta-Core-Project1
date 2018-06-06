@@ -1,49 +1,45 @@
-#ball {
-  height:20px;
-  width:20px;
-  background:#FFA500;
-  border-radius: 50%;
-  position: absolute;
-  top:175px;
-  left: 250px;
-}
 
 
 .container {
-  width: 500px;
-  height: 350px;
-  position: relative;
-  background: #003366;
-  border: 2px solid white;
-  margin: 50px auto;
+  width:400px;
+  height:400px;
+  background-color: black;
+  margin:0 auto;
 
 }
 
-.bat1 {
-  position: absolute;
-  height: 150px;
-  width: 25px;
-  background-color: Red;
-  left:0;
-  top:100px;
-
+#green {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  float: left;
 }
 
-.bat2 {
-  position: absolute;
-  height: 150px;
-  width: 25px;
+#red {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+#yellow {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  float: left;
+  clear: left;
+}
+
+#blue {
   background-color: blue;
-  top:30%;
-  right: 0;
+  height: 200px;
+  width: 200px;
+  float: left;
+
 }
 
-.empty {
-  width: 20px;
-  height: 500px;
-  background:yellow;
-}
+.box  {
+  font-size: 40px;
 
-h1 {
-  text-align: center;
+
 }
