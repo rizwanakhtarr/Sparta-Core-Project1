@@ -38,6 +38,12 @@
   right: 0;
 }
 
+.empty {
+  width: 20px;
+  height: 500px;
+  background:yellow;
+}
+
 h1 {
   text-align: center;
 }
