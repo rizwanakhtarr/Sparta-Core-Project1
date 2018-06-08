@@ -33,8 +33,7 @@ p {
   background-color: black;
   margin:0 auto;
   border: 5px solid black;
-border-radius: 300px;
-
+  border-radius: 300px;
 }
 
 .green {
@@ -70,7 +69,6 @@ border-radius: 300px;
   width: 200px;
   float: left;
   border-bottom-right-radius: 300px;
-
 }
 
 .box  {
@@ -139,13 +137,13 @@ border-radius: 300px;
 }
 
 button {
-    border: solid 2px black;
-    border-radius: 30px;
-    width: 70px;
-    height: 55px;
-    text-align: center;
-    font-size: 15px;
-    color: white;
-    background-color: black;
-    text-transform: uppercase;
+  border: solid 2px black;
+  border-radius: 30px;
+  width: 70px;
+  height: 55px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
   }
