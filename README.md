@@ -2,10 +2,10 @@
 
 ### Description
 
-The goal was to create Simon says game using JQuery, Html and CSS. We had a week to do this
+The goal was to create Simon says game using JQuery, HTML and CSS. We had a week to do this
 
 #### Installation
-Having the existing folder where all my JQuery, CSS, Html files were created. I created a new repo on Github called Sparta-Core-Project1. Next in my terminal I did git init to init followed by git add . and then git commit -m "" to message my changes. git remote add origin git@github.com:rizwanakhtarr/Sparta-Core-Project1.git was what I used next on terminal to create a link form Github to my local files.Finally by doing a git checkout -b dev I created a dev branch to push all my work up to. ( which was the git push origin dev in my terminal). Each Feature I created on the files. I would create a new branch for and as soon as It was okay I could merge it onto the dev branch which later could be merged on the master which was the main.
+Having the existing folder where all my JQuery, CSS, HTML files were created. I created a new repo on Github called Sparta-Core-Project1. Next in my terminal I did git init to init followed by git add . and then git commit -m "" to message my changes. git remote add origin git@github.com:rizwanakhtarr/Sparta-Core-Project1.git was what I used next on terminal to create a link form Github to my local files.Finally by doing a git checkout -b dev I created a dev branch to push all my work up to. ( which was the git push origin dev in my terminal). Each Feature I created on the files. I would create a new branch for and as soon as It was okay I could merge it onto the dev branch which later could be merged on the master which was the main.
 
 ### Challenges
 The main challenges I found with my game was to understanding JavaScript concepts such as arrays, functions, loops and putting them together which in order to do required a good understanding.
@@ -21,10 +21,10 @@ JavaScript
 ```
 //Hide and Show Instruction after clicking
   $("#hide").click(function(){
-        $("p").hide();
+    $("p").hide();
   });
   $("#show").click(function(){
-        $("p").show();
+    $("p").show();
   });
 
   var colorSequence = [];
@@ -51,14 +51,14 @@ JavaScript
 
 The above code created JavaScript to make a random number generate the colour
 
-Html
+HTML
 
 ```
   <div class="container">
-      <div class="square green" id="0" > </div>
-      <div class="square red" id="1" > </div>
-      <div class="square yellow" id="2"> </div>
-      <div class="square blue" id="3"> </div>
+    <div class="square green" id="0" > </div>
+    <div class="square red" id="1" > </div>
+    <div class="square yellow" id="2"> </div>
+    <div class="square blue" id="3"> </div>
     </div>
 
     <div>
@@ -95,7 +95,7 @@ button {
   color: white;
   background-color: black;
   text-transform: uppercase;
-  }
+}
 
 ```
 
