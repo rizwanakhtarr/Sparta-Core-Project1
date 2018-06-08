@@ -1,4 +1,4 @@
-#Sparta-Core-Project1
+# Sparta-Core-Project1
 
 ### Description
 
