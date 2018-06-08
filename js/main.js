@@ -2,27 +2,23 @@ $(document).ready(function(){
 
 //Hide and Show Instruction after clicking
   $("#hide").click(function(){
-
         $("p").hide();
-
-    });
-
-    $("#show").click(function(){
-
+  });
+  $("#show").click(function(){
         $("p").show();
   });
 
-var colorSequence = [];
+  var colorSequence = [];
 
-var round = 0;
+  var round = 0;
 
   $('#start').click(function(){
 
-    colorSequence = [];
+  colorSequence = [];
 
-    var randomSelections = [ '#0' , '#1' , '#2' ,'#3']
+  var randomSelections = [ '#0' , '#1' , '#2' ,'#3']
 
-    var randomColors = [
+  var randomColors = [
       'red',
       'green',
       'yellow',
