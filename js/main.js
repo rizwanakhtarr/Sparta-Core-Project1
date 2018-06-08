@@ -2,10 +2,10 @@ $(document).ready(function(){
 
 //Hide and Show Instruction after clicking
   $("#hide").click(function(){
-        $("p").hide();
+    $("p").hide();
   });
   $("#show").click(function(){
-        $("p").show();
+    $("p").show();
   });
 
   var colorSequence = [];
@@ -28,7 +28,7 @@ $(document).ready(function(){
       colorSequence.push(randomColors[index])
     }
 
- // Flashing the Boxes In a sequence
+// Flashing the Boxes In a sequence
     var index = 0;
     for (var i = 0; i < colorSequence.length; i++) {
       setTimeout(darkenColor,(i * 1000))
@@ -36,12 +36,12 @@ $(document).ready(function(){
         $('.' + colorSequence[index]).fadeOut(100).fadeIn(100);
         index++;
       }
-     }
-    })
+    }
+  })
 
-   // Make a array which contains users box selections
+// Make a array which contains users box selections
 
- // allows the User Selection
+// allows the User Selection
   $('.square').click(function(){
     if($(this).hasClass('green')) {
       playerSequence.push('green')
@@ -63,7 +63,7 @@ $(document).ready(function(){
       decideWinner();
     }
 
-    function decideWinner() {
+    function decideWinner(){
       var winner = true;
       for (var i = 0; i < playerSequence.length; i++) {
         if (playerSequence[i] !== colorSequence[i]){
