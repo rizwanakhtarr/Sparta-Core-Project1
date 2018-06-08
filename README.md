@@ -50,3 +50,53 @@ JavaScript
 ```
 
 The above code created JavaScript to make a random number generate the colour
+
+HTML
+
+```
+  <div class="container">
+      <div class="square green" id="0" > </div>
+      <div class="square red" id="1" > </div>
+      <div class="square yellow" id="2"> </div>
+      <div class="square blue" id="3"> </div>
+    </div>
+
+    <div>
+      <div class="controls">
+      <div class="title">Simon </div>
+      <div class="box1" id="rounds">00</div>
+      <div class="box2 inline" id="start" >Start</div>
+      <button class="box3 inline" id="reset">Reset</button>
+    </div>
+    </div>
+
+```
+This code above was for the layout of boxes with the start reset button code
+
+```
+box3 {
+  border: solid 2px black;
+  border-radius: 30px;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  background-color: black;
+}
+
+button {
+  border: solid 2px black;
+  border-radius: 30px;
+  width: 70px;
+  height: 55px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  }
+
+```
+
+The final part of the code just styled the elements in the html with colours and layout.
