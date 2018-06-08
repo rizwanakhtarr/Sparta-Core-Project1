@@ -7,9 +7,40 @@
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/main.js" charset="utf-8"></script>
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <title> My Simon Says game</title>
 </head>
-<body>
 
-</body>
+  <body>
+    <div class="container">
+      <div class="square green" id="0" > </div>
+      <div class="square red" id="1" > </div>
+      <div class="square yellow" id="2"> </div>
+      <div class="square blue" id="3"> </div>
+    </div>
+
+    <div>
+      <div class="controls">
+      <div class="title">Simon </div>
+      <div class="box1" id="rounds">00</div>
+      <div class="box2 inline" id="start" >Start</div>
+      <button class="box3 inline" id="reset">Reset</button>
+    </div>
+    </div>
+
+    <h2> Click for Instructions </h2>
+
+    <div class="container2">
+      <button id="hide" class="hide"> hide </button>
+      <button id="show" class="show"> Show </button>
+      <p>
+      1) Click Start and the game will begin. <br >
+      2) A light will flash at random out of the four colours.<br >
+      3) After the Sequence is complete, click the colours in the same order. <br>
+      4)Your Result will show in the grey box.<br>
+      5) GOOD LUCK!
+      </p>
+    </div>
+
+  </body>
+
 </html>

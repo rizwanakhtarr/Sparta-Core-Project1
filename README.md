@@ -55,10 +55,10 @@ HTML
 
 ```
   <div class="container">
-    <div class="square green" id="0" > </div>
-    <div class="square red" id="1" > </div>
-    <div class="square yellow" id="2"> </div>
-    <div class="square blue" id="3"> </div>
+      <div class="square green" id="0" > </div>
+      <div class="square red" id="1" > </div>
+      <div class="square yellow" id="2"> </div>
+      <div class="square blue" id="3"> </div>
     </div>
 
     <div>
@@ -95,7 +95,6 @@ button {
   color: white;
   background-color: black;
   text-transform: uppercase;
-}
 
 ```
 
